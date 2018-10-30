@@ -8,12 +8,14 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { CharDesignComponent } from './char-design/char-design.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { StoryComponent } from './story/story.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    CharDesignComponent
+    CharDesignComponent,
+    StoryComponent
   ],
   imports: [
     BrowserModule,
