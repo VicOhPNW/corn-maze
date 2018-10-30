@@ -14,7 +14,7 @@ const appRoutes: Routes = [
         component: CharDesignComponent
       },
       {
-        path: 'story',
+        path: 'story/:id',
         component: StoryComponent
       }
 ];
