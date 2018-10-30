@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+.jumbotron{
+    background-image: url("../../assets/img/welcome-corn.jpg");
+    background-position: bottom;
+}

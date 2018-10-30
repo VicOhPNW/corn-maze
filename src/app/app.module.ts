@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { CharDesignComponent } from './char-design/char-design.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CharDesignComponent } from './char-design/char-design.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -31,8 +31,11 @@ h1{
     
 }
 #box{
-border: 1px solid;
-padding: 10px;
-box-shadow: 0 0 5px 2px orangered;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 30px 10px orangered;
+}
 
+a{
+    color: white;
 }
